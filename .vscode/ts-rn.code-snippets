@@ -1,0 +1,18 @@
+{
+	"React Native Memoized Component": {
+		"prefix": "rnmc",
+		"body": [
+			"import React, {memo} from 'react';",
+			"",
+			"type Props = {",
+			"  // Define props here",
+			"};",
+			"export const ${1:Component} = memo(({}: Props) => {",
+			"  return null;",
+			"});",
+			"",
+			"${1:Component}.displayName = '${1:Component}';"
+		],
+		"description": "React Native Memoized Component"
+	}
+}
